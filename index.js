@@ -20,7 +20,7 @@ mongoose.set('strictQuery', true);
 app.use(express.json()); // to support JSON-encoded bodies
 app.use(express.urlencoded({ extended: true })); // to support URL-encoded bodies
 
-app.get("/", (req, res)=>{
+app.get("/", (req, res) => {
     res.send("Hello World");
 })
 
